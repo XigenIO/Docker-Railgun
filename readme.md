@@ -1,5 +1,10 @@
 # Railgun
 
+## Building
+`docker build --squash --pull -t xigen/railgun .`
+
+## Pushing
+`docker push xigen/railgun`
 
 ## Running
 Using docker-compose:
@@ -12,7 +17,7 @@ services:
         image: xigen/railgun
         container_name: railgun
         restart: always
-        mem_limit: 1024m
+        mem_limit: 4096m
         environment:
          - RG_TOKEN=puttokenhere
         restart: always
