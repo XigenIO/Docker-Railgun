@@ -21,4 +21,5 @@ stream.size = 2500000
 stats.enabled = 0
 stats.log = 0
 stats.interval = 0
+lan.timeout = 100
 END
